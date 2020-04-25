@@ -1,3 +1,9 @@
+$bg: #fff;
+
+.App {
+    text-align: center;
+}
+
 .App-header {
     background-color: #282c34;
     display: flex;
@@ -6,4 +12,12 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+}
+
+.App-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: $bg;
 }
