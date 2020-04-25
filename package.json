@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "csscomb": "^4.3.0",
     "htmlhint": "^0.11.0",
     "husky": "^4.2.5",
     "npm-run-all": "^4.1.5",
