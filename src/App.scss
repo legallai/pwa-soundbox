@@ -1,9 +1,23 @@
+$bg: #fff;
+
+.App {
+    text-align: center;
+}
+
 .App-header {
-    background-color: #282c34;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: calc(10px + 2vmin);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     color: white;
+    background-color: #282c34;
+}
+
+.App-main {
+    display: grid;
+    padding: 10px;
+    background-color: $bg;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-gap: 10px;
 }
